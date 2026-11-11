@@ -13,3 +13,4 @@ Markets: October US inflation rose 0.4%, hotter than expected, pushing December 
 
 In Washington, House Republicans blocked impeachment of Defense Secretary Hegseth, 211-204. Democrats take the House after last week's midterms; Jim Jordan became the new House GOP leader, and several Democrats said they would not back Chuck Schumer as Senate leader. A judge let Trump's $10 billion BBC defamation suit proceed. Nvidia shares slid as its board investigates CEO Jensen Huang over an affair with a woman linked to Chinese espionage.'''
 pathlib.Path("/output/entry.txt").write_text(S,encoding="utf-8")
+# Deterministic: no network, no clock, no randomness.
