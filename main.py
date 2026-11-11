@@ -1,20 +1,4 @@
 import pathlib
-S='''World news for Wednesday, 11 November 2026
-
-At the COP31 climate summit in Antalya, UN chief Guterres warned of a "path to mutually assured destruction" from climate change.
-
-In Abu Dhabi, US-Russia-Ukraine talks ended with agreement in principle on a prisoner exchange of up to 1,500 per side; NATO jets scrambled after drones entered Baltic airspace.
-
-On Iran, Rubio said sanctions and a naval blockade make major US combat operations unnecessary, but Tehran denied talks and designated Argentina's navy a terrorist group.
-
-In Gaza, Israeli strikes killed at least eight Palestinians incl. a father and his 13-year-old son; over 1,600 have died since last year's ceasefire.
-
-Ahead of next week's Trump-Xi summit in Shenzhen at APEC, Bessent said the US and China will advance a new "superintelligence" AI dialogue and an incident hotline, urging both to "harbor no illusions" about their differences.
-
-In Europe, the European Parliament debated deported Ukrainian children and further Russia sanctions; France warned Germany its new long-range missiles could accidentally provoke nuclear war. Spain held its first general strike in 14 years; Italy evacuated 300 schools over bomb threats; a US soldier was arrested in Britain over suspected Russia spying.
-
-Markets: October US inflation rose 0.4%, hotter than expected, pushing December Fed-hike odds near certainty. Stocks rebounded on AI optimism. Nvidia shed $427 billion in two sessions over CEO Jensen Huang's affair with a suspected Chinese spy - a senator called for his resignation. Google rolled out its Gemini 4 Carbon model; Anthropic launched AI spreadsheets and eyes an IPO valued up to $1.02 trillion.
-
-In Washington, House Republicans blocked impeachment of Defense Secretary Hegseth, 211-204. Democrats won the House in last week's midterms; Jim Jordan became the new House GOP leader. A judge let Trump's $10 billion BBC defamation suit proceed.'''
+S='World in brief — Wednesday, 11 November 2026\n\n1. Iran: Trump declared the war "militarily over," but Tehran keeps the Strait of Hormuz shut until its seven conditions are met; Rubio said sanctions and the blockade make new combat unnecessary. Two tankers burned after mine strikes in the strait; Brent swung below $90 then above $92.\n2. Ukraine: Russia, Ukraine and the US held their first trilateral talks in nine months in Abu Dhabi, agreeing a large prisoner swap but no breakthrough; Kushner and Witkoff will next meet Putin in Moscow.\n3. US: the House voted 211-204 to kill impeachment charges against Defense Secretary Hegseth; Rep. Massie was the only Republican to back them.\n4. Climate: COP31 opened in Antalya, Turkiye, pushing electrification — Ankara wants 35% of global energy from power by 2035 — while Erdogan touted two new oil fields.\n5. Gaza: Israeli strikes killed at least eight Palestinians, over 1,600 since the October 2025 ceasefire; winter floods swamp tent camps and Netanyahu blamed Hamas for aid delays, 150,000 tents awaiting entry.\n6. Yemen: Saudi defenses intercepted three Houthi cruise missiles at Riyadh again; the Houthis claimed hits on its airport, an oil pipeline and a financial district.\n7. Europe: Storm Charles shut Portugal\'s 8,000 schools, cancelled 300+ flights; hoax bomb emails hit hundreds of Italian schools; fog pile-ups killed 11 in Bulgaria; Spain held its first strike in 14 years, mourned 69 rail-crash victims.\n8. Markets: Nvidia fell 4% to $171.55 over the Huang spy scandal ($7.5bn of chips to China via Singapore); easyJet backed Apollo\'s £5.7bn takeover; US October CPI rose 0.4%, hotter than forecast.\n9. Health: Ebola cases in Congo reached 10,668, epicenter now North Kivu.\n10. Sudan: a senior RSF commander defected to the army, a rare blow to the paramilitary group.\n11. Security: an object from Belarus triggered Baltic air alerts and NATO scrambles, restricting Vilnius airport; 3 killed at a Tata iPhone plant in India.\n'
 pathlib.Path("/output/entry.txt").write_text(S,encoding="utf-8")
 # Deterministic: no network, no clock, no randomness.
